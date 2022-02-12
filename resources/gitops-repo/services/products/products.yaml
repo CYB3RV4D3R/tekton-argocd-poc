@@ -7,7 +7,7 @@ spec:
     app: products
   ports:
     - port: 9091
-      targetPort: 8080-tcp
+      targetPort: 8080
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -30,6 +30,5 @@ spec:
           image: cyb3rp4ul3y/products:latest
           ports:
             - containerPort: 8080
-              name: 8080-tcp
       imagePullSecrets:
         - name: dockersecret
