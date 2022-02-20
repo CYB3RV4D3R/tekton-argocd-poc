@@ -22,8 +22,8 @@ spec:
       labels:
         app: products
       annotations:
-        revision: "514639d6788a0de66663c390c36209f9484b1eb7"
-        buildDate: "20220218210905"
+        revision: "24761e0435ee11264dfd78bf99ef645a94fba3ea"
+        buildDate: "20220220230820"
     spec:
       containers:
         - name: products
